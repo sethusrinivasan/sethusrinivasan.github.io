@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Sethu Srinivasan · Engineering leader</title>
+  <meta name="description" content="Sethu Srinivasan is a software development manager at AWS. He leads database and time-series engineering, and builds privacy-first and teaching tools in public." />
+  <meta name="theme-color" content="#f4efe6" />
+  <link rel="canonical" href="https://sethusrinivasan.github.io/" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,650&family=IBM+Plex+Mono:wght@400;500&family=Source+Sans+3:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <a class="skip" href="#work">Skip to work</a>
+  <header class="top">
+    <p class="mark">SS</p>
+    <nav aria-label="Primary">
+      <a href="#areas">Areas</a>
+      <a href="#work">Work</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <p class="kicker">Seattle · AWS · 29 years building data systems</p>
+      <h1>Sethu Srinivasan</h1>
+      <p class="lede">
+        Software development manager at Amazon Web Services. I lead engineering
+        for large-scale database services, and I ship small, careful tools of my own —
+        encrypted mobile vaults, observability stacks, and teaching software.
+      </p>
+      <p class="links">
+        <a href="https://github.com/sethusrinivasan">GitHub</a>
+        <a href="https://www.linkedin.com/in/sethusrinivasan/">LinkedIn</a>
+        <a href="https://sethusrinivasan.github.io/ap-physics/">AP Physics walkthroughs</a>
+      </p>
+    </section>
+
+    <section id="areas" class="areas">
+      <h2>Technical areas</h2>
+      <p class="section-note">What I spend time on, in production and in public repos.</p>
+      <ul>
+        <li>
+          <h3>Cloud databases</h3>
+          <p>Amazon RDS, Amazon Timestream, Amazon DocumentDB. Serverless query, tiered storage, multi-region operations, and compliance programs (FedRAMP, GDPR, HIPAA, SOC, ISO).</p>
+        </li>
+        <li>
+          <h3>Data connectivity</h3>
+          <p>JDBC and ODBC drivers, Aurora JDBC wrapper, Grafana datasources — the path from engines to the tools people already use.</p>
+        </li>
+        <li>
+          <h3>Observability</h3>
+          <p>OpenTelemetry traces, metrics, and logs into Grafana LGTM (Loki, Tempo, Mimir) across Python, Java, and Rust services.</p>
+        </li>
+        <li>
+          <h3>Privacy-first mobile</h3>
+          <p>On-device encryption, biometrics, OCR, and consent-based backups. Nothing leaves the phone unless the owner says so.</p>
+        </li>
+        <li>
+          <h3>SQL platform</h3>
+          <p>SQL Server, Azure SQL, SSMS, and manageability: backup, patching, high availability, and faster release trains for operators.</p>
+        </li>
+        <li>
+          <h3>Teaching software</h3>
+          <p>Interactive AP Physics C walkthroughs with the exam item on screen, named symbols, and English audio through the derivation.</p>
+        </li>
+      </ul>
+    </section>
+
+    <section id="work" class="work">
+      <h2>Selected work</h2>
+      <ol>
+        <li>
+          <p class="meta">AWS · 2020–present</p>
+          <h3>Amazon Timestream</h3>
+          <p>Led engineering for serverless query and tiered storage across regions, including FedRAMP High for LiveAnalytics in GovCloud. Team shipped UNLOAD for downstream AI/ML and ETL pipelines. Public connectors include JDBC, ODBC, and the Grafana datasource.</p>
+          <p class="tags">Time-series · Serverless · Compliance · Drivers</p>
+        </li>
+        <li>
+          <p class="meta">AWS · 2025–present</p>
+          <h3>Amazon RDS</h3>
+          <p>Currently leading an engineering team on Amazon RDS — managed relational databases at AWS scale.</p>
+          <p class="tags">PostgreSQL · Operations · Cloud databases</p>
+        </li>
+        <li>
+          <p class="meta">AWS · 2018–2020</p>
+          <h3>Amazon DocumentDB</h3>
+          <p>Engineering leader through service launch. Partner work, GDPR / HIPAA / SOC / ISO, and expansion into additional AWS regions in the following year.</p>
+          <p class="tags">Document DB · Launch · Compliance</p>
+        </li>
+        <li>
+          <p class="meta">Microsoft · 2005–2018</p>
+          <h3>SQL Server, Azure SQL, Dynamics</h3>
+          <p>From SQL Server engine, Agent, and SSMS through SQL Server IaaS on Azure (patching, backup, HA) to principal work on SQL manageability, then engineering management for Dynamics CRM feature releases.</p>
+          <p class="tags">SQL Server · Azure · Manageability</p>
+        </li>
+        <li>
+          <p class="meta">Open source · Kotlin</p>
+          <h3><a href="https://github.com/sethusrinivasan/document-manager">DocVault</a></h3>
+          <p>Private encrypted document vault for Android. AES-256-GCM, Android KeyStore, on-device OCR, no accounts and no telemetry by default. Clean architecture, Compose, Hilt, Kotest.</p>
+          <p class="tags">Android · Privacy · Crypto</p>
+        </li>
+        <li>
+          <p class="meta">Open source · Python, Java, Rust</p>
+          <h3><a href="https://github.com/sethusrinivasan/observability-demo">Observability demo</a></h3>
+          <p>End-to-end telemetry playground: Flask, Spring Boot, and Axum behind an OpenTelemetry Collector into Grafana, Tempo, Loki, and Mimir. Docker Compose or Kind.</p>
+          <p class="tags">OpenTelemetry · Grafana · Kubernetes</p>
+        </li>
+        <li>
+          <p class="meta">Open source · HTML, Python</p>
+          <h3><a href="https://sethusrinivasan.github.io/ap-physics/">AP Physics C walkthroughs</a></h3>
+          <p>Ninety interactive Unit 2 solutions. Sticky exam item, KaTeX, English audio, Playwright smoke tests, CodeQL and Scorecard. Built as a study aid from school-shared AP problem sets.</p>
+          <p class="tags">Education · GitHub Pages · Testing</p>
+        </li>
+        <li>
+          <p class="meta">Open source · Python, Flask</p>
+          <h3><a href="https://github.com/sethusrinivasan/satellite-tracker">Satellite tracker</a></h3>
+          <p>Upload, parse, and explore satellite two-line element sets. SQLAlchemy + SQLite persistence and a reporting UI.</p>
+          <p class="tags">TLE · Flask · Data</p>
+        </li>
+      </ol>
+    </section>
+
+    <section id="contact" class="contact">
+      <h2>Contact</h2>
+      <p>Sammamish / Seattle. Best reached on LinkedIn or GitHub.</p>
+      <p class="links">
+        <a href="https://github.com/sethusrinivasan">github.com/sethusrinivasan</a>
+        <a href="https://www.linkedin.com/in/sethusrinivasan/">linkedin.com/in/sethusrinivasan</a>
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <p>Personal site. Views are my own, not those of my employer.</p>
+  </footer>
+</body>
+</html>
