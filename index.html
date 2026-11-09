@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
-  <title>Sethu Srinivasan</title>
-  <meta name="description" content="Hands-on with AWS, Azure, and SQL databases. Public GitHub tools and apps; pairs with Google Gemini, Cursor, Kiro, v0, and Lovable." />
+  <title>Sethu Srinivasan — Software Engineer (Distributed Systems, Databases &amp; Backend)</title>
+  <meta name="description" content="Software Engineer (IC) portfolio of Sethu Srinivasan. Hands-on with analytical database engines (DuckDB, Postgres), distributed systems (OpenTelemetry, Go, Rust), cloud platforms (AWS, Azure), and AI systems engineering." />
   <meta name="theme-color" content="#f5f5f7" media="(prefers-color-scheme: light)" />
   <meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)" />
   <link rel="canonical" href="https://sethusrinivasan.github.io/" />
@@ -16,113 +16,183 @@
     <h1 class="wordmark">Sethu Srinivasan</h1>
     <nav aria-label="Primary">
       <a href="https://github.com/sethusrinivasan">GitHub</a>
+      <a href="https://www.linkedin.com/in/sethusrinivasan/">LinkedIn</a>
       <a href="https://gist.github.com/sethusrinivasan">Gists</a>
     </nav>
   </header>
 
   <main>
     <section class="hero">
-      <p>Hands-on with AWS, Azure, and SQL databases. I build tools and apps—SQL and time-series clients, an encrypted Android vault, observability stacks, and teaching software. I pair with <a href="https://gemini.google.com">Google Gemini</a>, <a href="https://cursor.com">Cursor</a>, <a href="https://kiro.dev">Kiro</a>, <a href="https://v0.dev">v0</a>, and <a href="https://lovable.dev">Lovable</a> for code, tests, and docs, then manually review and understand changes.</p>
+      <p>I am a <strong>software engineer</strong> focused on building backend infrastructure, analytical database systems, and distributed platforms. I write high-throughput pipelines, polyglot microservices, and deterministic benchmarking harnesses in Python, Go, Rust, and SQL. I combine strong systems fundamentals with modern AI pair programming—designing with precision, profiling at the physical operator level, and shipping tested, production-grade code.</p>
     </section>
-    <section class="focus" aria-label="Languages and tech">
-      <h2>Focus</h2>
-      <ul>
-        <li>Python</li>
-        <li>Kotlin</li>
-        <li>Java</li>
-        <li>C#</li>
-        <li>C++</li>
-        <li>C</li>
-        <li>Go</li>
-        <li>Rust</li>
-        <li>Swift</li>
-        <li>PHP</li>
-        <li>TypeScript</li>
-        <li>JavaScript</li>
-        <li>SQL</li>
-        <li>PowerShell</li>
-        <li>HTML</li>
-        <li>AWS</li>
-        <li>Azure</li>
-        <li>Android</li>
-        <li>PostgreSQL</li>
-        <li>DuckDB</li>
-        <li>SQLite</li>
-        <li>MySQL</li>
-        <li>SQL Server</li>
-        <li>OpenTelemetry</li>
-        <li>Grafana</li>
-        <li>Docker</li>
-      </ul>
+
+    <section class="competencies" aria-label="Technical competencies">
+      <h2>Engineering Competencies</h2>
+      <div class="focus-grid">
+        <div class="focus-card">
+          <span class="focus-card-title">Databases &amp; Query Engines</span>
+          <span class="focus-card-items">DuckDB 2.0 Internals, PostgreSQL, SQLite, Analytical SQL (ASOF Joins, Window Frames, Recursive CTEs), OLAP &amp; Columnar Storage</span>
+        </div>
+        <div class="focus-card">
+          <span class="focus-card-title">Backend &amp; Distributed Systems</span>
+          <span class="focus-card-items">Go, Python, Rust, C#, Java, gRPC, REST, Concurrent &amp; Event-Driven Architectures, Microservices</span>
+        </div>
+        <div class="focus-card">
+          <span class="focus-card-title">Observability &amp; Reliability</span>
+          <span class="focus-card-items">OpenTelemetry SDKs, Grafana LGTM Stack (Loki, Tempo, Mimir, Grafana), Distributed Tracing, Telemetry Metrics</span>
+        </div>
+        <div class="focus-card">
+          <span class="focus-card-title">Cloud Infrastructure &amp; Linux</span>
+          <span class="focus-card-items">AWS (Graviton, Lambda, ECS, S3, Bedrock), Azure, Docker, Linux Systems Architecture &amp; Performance Tuning</span>
+        </div>
+        <div class="focus-card">
+          <span class="focus-card-title">AI Systems &amp; Evaluation</span>
+          <span class="focus-card-items">Deterministic AI Evaluation Harnesses, Model Context Protocol (MCP), Vector Embeddings, RAG Architectures</span>
+        </div>
+        <div class="focus-card">
+          <span class="focus-card-title">Security &amp; Systems Integrity</span>
+          <span class="focus-card-items">FIRST CVSS 4.0 Specification, Android Keystore Hardware AES-256-GCM, Zero-Knowledge Architectures</span>
+        </div>
+      </div>
     </section>
 
     <section id="work" class="list">
-      <h2>Repositories</h2>
+      <h2>Featured Software Engineering Projects</h2>
       <ul>
         <li>
-          <a href="https://github.com/sethusrinivasan/quietscore">
-            <span class="name">QuietScore</span>
-            <span class="desc">Private CVSS 4.0 assessments. Rust/WebAssembly, local drafts, exports, and MCP.</span>
+          <a href="https://github.com/sethusrinivasan/sql-frontier-eval">
+            <div class="project-header">
+              <span class="name">SQL-Frontier-Eval</span>
+              <span class="featured-pill">Flagship Project</span>
+            </div>
+            <span class="desc">Deterministic evaluation harness for Frontier AI on complex analytical SQL. Evaluates 120 semantic traps (Chasm Traps, ASOF joins, recursive cycles) scaled across 108M+ records with DuckDB JSON physical plan profiling.</span>
+            <div class="tags">
+              <span class="tag">DuckDB 2.0</span>
+              <span class="tag">Python</span>
+              <span class="tag">AI Evals</span>
+              <span class="tag">108M+ Records</span>
+              <span class="tag">Physical Profiler</span>
+            </div>
           </a>
-          <a class="live" href="https://quietscore.cancun.workers.dev/">Live</a>
+          <a class="live" href="https://sethusrinivasan.github.io/sql-frontier-eval/" title="Live Interactive Report Dashboard">Live Dashboard</a>
         </li>
         <li>
           <a href="https://github.com/sethusrinivasan/observability-demo">
-            <span class="name">observability-demo</span>
-            <span class="desc">9 polyglot microservices, Grafana LGTM stack, DuckDB OLAP &amp; AWS Graviton.</span>
+            <div class="project-header">
+              <span class="name">observability-demo</span>
+              <span class="featured-pill">Distributed Systems</span>
+            </div>
+            <span class="desc">Polyglot microservice architecture (9 services in Go, Rust, Python, C#, Java, Node) with OpenTelemetry end-to-end tracing, Grafana LGTM stack, DuckDB OLAP telemetry metrics, and AWS Graviton deployment.</span>
+            <div class="tags">
+              <span class="tag">OpenTelemetry</span>
+              <span class="tag">Grafana LGTM</span>
+              <span class="tag">Go</span>
+              <span class="tag">Rust</span>
+              <span class="tag">DuckDB OLAP</span>
+              <span class="tag">AWS Graviton</span>
+            </div>
           </a>
-          <a class="live" href="https://volume-investigation-knife-pros.trycloudflare.com/" title="Cloudflare Showcase Tunnel">Cloudflare</a>
-          <a class="live" href="https://kc25dgfws7f4oqbowcxhgpqwii0uyzxa.lambda-url.us-east-2.on.aws/" title="Live AWS Canary Dashboard">AWS</a>
+          <a class="live" href="https://kc25dgfws7f4oqbowcxhgpqwii0uyzxa.lambda-url.us-east-2.on.aws/" title="Live AWS Canary Dashboard">AWS Canary</a>
+        </li>
+        <li>
+          <a href="https://github.com/sethusrinivasan/quietscore">
+            <div class="project-header">
+              <span class="name">QuietScore</span>
+              <span class="featured-pill">Rust / Wasm</span>
+            </div>
+            <span class="desc">Zero-trust, offline-first security vulnerability scoring engine implementing the complete FIRST CVSS 4.0 specification in Rust &amp; WebAssembly, with Model Context Protocol (MCP) server integration.</span>
+            <div class="tags">
+              <span class="tag">Rust</span>
+              <span class="tag">WebAssembly</span>
+              <span class="tag">CVSS 4.0</span>
+              <span class="tag">MCP Server</span>
+              <span class="tag">Cloudflare Workers</span>
+            </div>
+          </a>
+          <a class="live" href="https://quietscore.cancun.workers.dev/" title="Live Cloudflare Worker Application">Live App</a>
+        </li>
+        <li>
+          <a href="https://github.com/sethusrinivasan/dhayam">
+            <div class="project-header">
+              <span class="name">Dhayam Game Engine</span>
+            </div>
+            <span class="desc">Classical Tamil strategy board game built in zero-dependency modern TypeScript. Implements probabilistic cowrie shell simulation, circular track token collision logic, and state-space minimax decision tree AI.</span>
+            <div class="tags">
+              <span class="tag">TypeScript</span>
+              <span class="tag">Minimax AI</span>
+              <span class="tag">HTML5 Canvas</span>
+              <span class="tag">Zero Dependencies</span>
+            </div>
+          </a>
+          <a class="live" href="https://sethusrinivasan.github.io/dhayam/" title="Play Dhayam Live">Play Game</a>
         </li>
         <li>
           <a href="https://github.com/sethusrinivasan/document-manager">
-            <span class="name">Paperstow</span>
-            <span class="desc">Encrypted Android vault. Stays on the device.</span>
+            <div class="project-header">
+              <span class="name">Paperstow</span>
+            </div>
+            <span class="desc">Zero-knowledge offline encrypted document vault for Android. Enforces hardware-backed Android Keystore AES-256-GCM encryption with local biometric authentication and zero network permissions.</span>
+            <div class="tags">
+              <span class="tag">Android</span>
+              <span class="tag">Kotlin</span>
+              <span class="tag">AES-256-GCM</span>
+              <span class="tag">Hardware Keystore</span>
+            </div>
           </a>
-          <a class="live" href="https://come-projection-chain-far.trycloudflare.com/">Demo</a>
-        </li>
-        <li>
-          <a href="https://github.com/sethusrinivasan/box_hackathon">
-            <span class="name">Reality Check</span>
-            <span class="desc">Sales claim checker agent using Box, Amazon Bedrock &amp; DuckDB.</span>
-          </a>
-          <a class="live" href="https://2c5gs4u2lsxjzi66dbxbr7iuzu0xhila.lambda-url.us-east-2.on.aws/">Live</a>
-          <a class="live" href="https://sethusrinivasan.github.io/box_hackathon/">Deck</a>
-        </li>
-        <li>
-          <a href="https://github.com/sethusrinivasan/ap-physics">
-            <span class="name">ap-physics</span>
-            <span class="desc">AP Physics C walkthroughs with audio.</span>
-          </a>
-          <a class="live" href="https://sethusrinivasan.github.io/ap-physics/">Live</a>
         </li>
         <li>
           <a href="https://github.com/sethusrinivasan/satellite-tracker">
-            <span class="name">satellite-tracker</span>
-            <span class="desc">Explore satellite TLE sets, SGP4 orbit propagation &amp; offline Text-to-SQL AI.</span>
+            <div class="project-header">
+              <span class="name">Satellite Orbit Tracker</span>
+            </div>
+            <span class="desc">Real-time satellite orbital propagation platform utilizing NORAD TLE sets and SGP4 orbital mechanics with 3D Cesium visualization and offline Text-to-SQL telemetry exploration.</span>
+            <div class="tags">
+              <span class="tag">Python</span>
+              <span class="tag">FastAPI</span>
+              <span class="tag">SGP4</span>
+              <span class="tag">CesiumJS</span>
+              <span class="tag">Text-to-SQL</span>
+            </div>
           </a>
-          <a class="live" href="https://sethusrinivasan-satellite-tracker.vercel.app/">Live</a>
+          <a class="live" href="https://sethusrinivasan-satellite-tracker.vercel.app/" title="Live Satellite Tracker">Live App</a>
         </li>
         <li>
-          <a href="https://github.com/sethusrinivasan/ExpenseTracker">
-            <span class="name">ExpenseTracker</span>
-            <span class="desc">Expense log on Next.js and Postgres.</span>
+          <a href="https://github.com/sethusrinivasan/box_hackathon">
+            <div class="project-header">
+              <span class="name">Reality Check</span>
+            </div>
+            <span class="desc">Serverless compliance audit agent verifying sales claims against contractual agreements. Combines Box Platform APIs, Amazon Bedrock foundation models, and DuckDB analytical validation.</span>
+            <div class="tags">
+              <span class="tag">Amazon Bedrock</span>
+              <span class="tag">Box API</span>
+              <span class="tag">DuckDB</span>
+              <span class="tag">AWS Lambda</span>
+            </div>
           </a>
-          <a class="live" href="https://v0-expense-tracking-app-gilt.vercel.app/">Live</a>
+          <a class="live" href="https://2c5gs4u2lsxjzi66dbxbr7iuzu0xhila.lambda-url.us-east-2.on.aws/" title="Live Bedrock Demo">Live Demo</a>
+          <a class="live" href="https://sethusrinivasan.github.io/box_hackathon/" title="Interactive Slides">Deck</a>
         </li>
         <li>
-          <a href="https://github.com/sethusrinivasan/greetings">
-            <span class="name">greetings</span>
-            <span class="desc">Time-of-day greeting, CLI and Worker.</span>
+          <a href="https://github.com/sethusrinivasan/ap-physics">
+            <div class="project-header">
+              <span class="name">AP Physics C Interactive</span>
+            </div>
+            <span class="desc">Calculus-based problem walkthrough engine for AP Physics C Mechanics &amp; Electromagnetism with audio narration, interactive LaTeX mathematical proofs, and visual derivations.</span>
+            <div class="tags">
+              <span class="tag">TypeScript</span>
+              <span class="tag">Calculus Proofs</span>
+              <span class="tag">Audio Walkthrough</span>
+              <span class="tag">Physics Engine</span>
+            </div>
           </a>
-          <a class="live" href="https://greeting-worker.cancun.workers.dev/">Live</a>
+          <a class="live" href="https://sethusrinivasan.github.io/ap-physics/" title="Live Interactive Course">Live Site</a>
         </li>
       </ul>
     </section>
   </main>
 
   <footer>
-    <p>Seattle · <a href="https://github.com/sethusrinivasan">GitHub</a> · <a href="https://www.linkedin.com/in/sethusrinivasan/">LinkedIn</a></p>
+    <p>Seattle, WA · <a href="https://github.com/sethusrinivasan">GitHub</a> · <a href="https://www.linkedin.com/in/sethusrinivasan/">LinkedIn</a> · <a href="https://gist.github.com/sethusrinivasan">Gists</a></p>
   </footer>
 </body>
 </html>
